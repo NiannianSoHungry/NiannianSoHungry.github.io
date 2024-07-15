@@ -96,7 +96,7 @@ countsNormVoom <- v0oom(
 
 Log2(counts+1) 就其形式而言与 voom 的公式如出一辙；
 
-由于我们上一步已经进行过 normalizeBetweenArrays() ，因此可以认为 $\sum{N_{i]}$ 对于所有样本都是相等的，即测序深度归一化；
+由于我们上一步已经进行过 normalizeBetweenArrays() ，因此可以认为 $\sum{N_i}$ 对于所有样本都是相等的，即测序深度归一化；
 
 因此直接做 Log2(counts+1) 的结果与 voom 的结果仅相差一个比例倍数，其分布应当是完全一致的，计算差异倍数的结果也会是一致的。
 

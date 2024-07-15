@@ -43,7 +43,7 @@ library(edgeR) # 去除低表达基因
 
 此次演示中使用来自 GSE222699 的 RNAseq 数据，数据从 GEO 官网下载。
 
-```tree
+```
 GSE222699_RAW
 ├─ GSM6929162_HDMB03_CTRL_1.txt.gz
 ├─ GSM6929163_HDMB03_CTRL_2.txt.gz
