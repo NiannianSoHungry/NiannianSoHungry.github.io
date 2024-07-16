@@ -277,7 +277,7 @@ picHeatmap <- pheatmap(
     color = colorRampPalette(c("blue", "white", "red"))(100), # 指定颜色为（蓝，白，红），过渡为 100 级
     treeheight_row = 0, # 基因方向上的聚类树高度设置为 0，因为此处聚类无意义，因而隐藏起来，
                         # 若在你的实验中需要看不同基因之间相关性的高低，可以不设置隐藏
-    cutree_cols = 2, # 将样本分为两组，目的在与检查实验组与对照组间是否有混杂
+    cutree_cols = 2, # 将样本分为两组，目的在于检查实验组与对照组间是否有混杂
     show_rownames = FALSE # 不显示基因名，因为此处展示了大量基因，若仅展示少量基因时，应当显示基因名
 )
 plot.new() # 新建画布
