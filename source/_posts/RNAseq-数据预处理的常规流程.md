@@ -250,7 +250,7 @@ picPcaBefore <- fviz_pca_ind(
 print(picPcaBefore)
 ```
 
-<img src="/img/f数据预处理的常规流程/picPcaBefore.jpeg">
+<img src="/img/RNAseq-数据预处理的常规流程/picPcaBefore.jpeg">
 
 ### 2.2 相关性热图
 计算各个样本之间的相关性，以热图的形式展示，理想情况下：
