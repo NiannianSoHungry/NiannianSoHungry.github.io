@@ -3,7 +3,7 @@ title: RNAseq 数据预处理的常规流程
 date: 2024-07-12 14:54:56
 tags: 
     - 生物信息学
-    - bulk seq
+    - bulk-seq
     - 数据预处理
 categories:
     - 生物信息学
